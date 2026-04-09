@@ -73,12 +73,12 @@ GPU-accelerated molecular dynamics simulations. In high school, I was also a par
   <p>
   <b>TRINITY: An Evolved LLM Coordinator.</b><br>
   J. Xu*, Q. Sun*, <b>P. Schwendeman</b>, S. Nielsen, E. Cetin, Y. Tang. (2025).  
-  <a href="https://arxiv.org/abs/2512.04695">aIn proceedings at ICLR 2026</a>.
+  <a href="https://arxiv.org/abs/2512.04695">In proceedings at ICLR 2026</a>.
   </p>
 
 <p>
     <b>Learnable Diffusion Framework for Mouse V1 Neural Decoding</b><br>
-    K. Deng*, <b>P. S. Schwendeman*</b>, Y. Guan. <a href="https://doi.org/10.1002/advs.202520220">Advanced Science</a>.
+    K. Deng*, <b>P. S. Schwendeman*</b>, Y. Guan. Advanced Science. <a href="https://doi.org/10.1002/advs.202520220">doi</a>.
     </p>
 
 <p>
@@ -106,7 +106,10 @@ I try to focus on research directions that may teach us something useful (as opp
 Here are some research directions I hope to wrap up by the end of my undergrad!
 <p>
 <b>Learning from Information Gain with Counterfactual Policy Updates</b> 
-
+To learn without explicit rewards, we want to try to use information gain. One way to do this is through an online bootstrapping framework 
+that generates counterfactual policy improvements from model rollouts and information gain (prompt -> response -> new information -> updated response). 
+Training Qwen2.5 to prefer the updated policy rollouts using DPO achieves performance comparable to GRPO on DeepMath without rewards (experiments done with TRL). 
+This has been rendered somewhat obselete in relation to methods like SDPO.
 </p>
 
 <h2>Teaching</h2>
